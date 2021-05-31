@@ -50,6 +50,9 @@ function newListOutput() {
     //reset
     errorOutput.style.display = "none"
     listOutput.innerHTML = ''
+    nameInput.value = ""
+    ageInput.value = ""
+    examInput.checked = false
 
     //update
     allPersons.forEach(person => {
