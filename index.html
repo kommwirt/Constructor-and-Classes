@@ -5,8 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Classes, Constructor, Argument, Person</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <h1>Add people</h1>
+    <form>
+      <input type="text" name="name" id="name" placeholder="Name" />
+      <input type="number" name="age" id="age" placeholder="Age" />
+      <input type="checkbox" name="exam"" id="exam" />
+      <label for="exam">Passed the exam?</label>
+      <input type="button" value="Add" id="add" />
+    </form>
+    <p id="error">Please fill out both fields!!!</p>
+    <ul id="output"></ul>
     <script src="./main.js"></script>
   </body>
 </html>
